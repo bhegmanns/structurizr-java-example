@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin:'application'
 
 repositories {
     mavenCentral()
@@ -9,6 +10,8 @@ dependencies {
     compile 'com.structurizr:structurizr-core:0.1'
     compile 'com.structurizr:structurizr-client:0.1'
 }
+
+mainClassName = "StructurizrExample"
 
 compileJava.options.encoding = 'UTF-8'
 compileTestJava.options.encoding = 'UTF-8'

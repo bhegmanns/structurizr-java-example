@@ -6,7 +6,7 @@ See [structurizr.com](http://www.structurizr.com) for more information about Str
 
 ## Building
 
-To build this example from the sources (you'll need Java 8)...
+To build this example from the sources (you'll need Java 8):
 
 ```
 git clone https://github.com/simonbrowndotje/structurizr-java-example.git
@@ -14,3 +14,13 @@ cd structurizr-java-example
 chmod u+x gradlew
 ./gradlew build
 ```
+
+## Run
+
+To run the example:
+
+```
+./gradlew run
+```
+
+__Note__: In order to upload your model to [structurizr.com](http://www.structurizr.com) through the  API, you'll need your own API key and secret. Structurizr is currently in development and will be open for closed beta testing soon.
